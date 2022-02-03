@@ -2,7 +2,7 @@
 
 from PySide2.QtWidgets import QApplication, QPushButton
 # The handler (QApplication) and a basic empty GUI widget with a single 
-# push-able button (QPushButton)
+# push-able button (QPushButton).
 
 import sys # Only needed for access to command line arguments 
 
