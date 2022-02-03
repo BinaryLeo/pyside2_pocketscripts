@@ -1,5 +1,5 @@
 # pip3 install pyside2
-from tkinter import Button
+
 from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton
 # The handler (QApplication) and a MainWindow with a single 
 # push-able button (QPushButton)
