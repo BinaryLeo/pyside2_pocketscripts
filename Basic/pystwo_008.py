@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle('My App')
         self.button = QPushButton('Click me!')
         
-        self.setFixedSize(QSize(400,300))
+        self.setFixedSize(QSize(400,300)) # Width / height
         #  maximize control is disabled on Windows & Linux
         
         self.button.clicked.connect(self.the_button_was_clicked)
