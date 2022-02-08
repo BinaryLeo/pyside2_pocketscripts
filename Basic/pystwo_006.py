@@ -5,7 +5,7 @@ from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton
 # push-able button (QPushButton)
  
 from PySide2.QtCore import Qt
-import sys # Only needed for access to comand line arguments 
+import sys # Only needed for access to command line arguments 
 
 class MainWindow(QMainWindow):
     def __init__(self):
