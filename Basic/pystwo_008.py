@@ -4,7 +4,7 @@ from PySide2.QtWidgets import QApplication,QMainWindow,QPushButton
 # QMainWindow and a single push-able button (QPushButton)
 from PySide2.QtCore import Qt, QSize
 
-import sys # Only needed for access to comand line arguments 
+import sys # Only needed for access to command line arguments 
 from random import choice
 #A list of window titles we’ll select from using random.choice()
 window_titles = ['My App','New Title','Another Title','Something went wrong']

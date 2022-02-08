@@ -1,5 +1,5 @@
 # pip3 install pyside2
-import sys# Only needed for access to comand line arguments 
+import sys# Only needed for access to command line arguments 
 from PySide2.QtCore import Qt, QSize
 from PySide2.QtWidgets import QApplication, QMainWindow , QLabel
 # The handler (QApplication), a QMainWindow and A label
@@ -23,3 +23,4 @@ window.show()# Windows are hidden by default
 app.exec_()# Start the event loop     
      
 
+#

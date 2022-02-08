@@ -3,7 +3,7 @@ from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton
 # The handler (QApplication) and a basic empty GUI widget with a
 # QMainWindow and a single push-able button (QPushButton)
 from PySide2.QtCore import Qt, QSize
-import sys # Only needed for access to comand line arguments 
+import sys # Only needed for access to command line arguments 
 
 class MainWindow(QMainWindow):
     def __init__(self):
