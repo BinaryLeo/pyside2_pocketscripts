@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
 
     def index_changed(self, i): # Not an index, i is a QListItem
         print(i.text())
-    def text_changed(self,s): # Not an index, i is a QListItem
+    def text_changed(self,s):  # s is a str
         print(s)
 
 app = QApplication(sys.argv) # We neeed one (only one) instance per application
