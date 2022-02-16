@@ -28,6 +28,6 @@ class MainWindow(QMainWindow):
           print("text edited")
           print(s)    
 app = QApplication(sys.argv)# We neeed one (only one) instance per application
-window = QMainWindow()
+window = MainWindow()
 window.show()# Windows are hidden by default
 app.exec_()
