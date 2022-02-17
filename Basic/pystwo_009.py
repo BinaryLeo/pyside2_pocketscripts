@@ -21,6 +21,3 @@ app = QApplication(sys.argv)# We neeed one (only one) instance per application
 window = MainWindow() # create a new window
 window.show()# Windows are hidden by default
 app.exec_()# Start the event loop     
-     
-
-#

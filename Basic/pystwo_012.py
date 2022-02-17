@@ -1,3 +1,4 @@
+# pip3 install pyside2
 import sys # Only needed for access to command line arguments
 from PySide2.QtWidgets import QApplication, QMainWindow, QComboBox
 from PySide2.QtCore import QSize
