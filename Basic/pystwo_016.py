@@ -21,6 +21,7 @@ class MainWindow(QMainWindow):
         widget.valueChanged.connect(self.valueChanged)
         widget.valueChanged[str].connect(self.valueChanged_str)
         self.setCentralWidget(widget)
+        #Set the central Widget of the window
 
     def valueChanged(self,i):
         print(i)

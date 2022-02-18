@@ -1,3 +1,4 @@
+# pip3 install pyside2
 import sys
 from PySide2.QtCore import Qt, QSize
 from PySide2.QtWidgets import QApplication, QLineEdit, QMainWindow
